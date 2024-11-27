@@ -20,111 +20,115 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
+  name: "Elias Dzobo",
+  initials: "ED",
+  location: "Accra, Ghana, UTC",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "AI/ML Engineer building user centred applications | Backend Developer",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "As an AI/ML Engineer, i have experience turning business objectives into ML tasks that can be modeled and solved using data driven approaches to produce models in production that can generate value. I also have experience working with data and data pipelines as well as the entire machine learning operations lifecycle.",
+  avatarUrl: "../../public/avatar.jpg",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "elias.dzobo@gmail.com",
+    tel: "+233200770570",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/elias-dzobo",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/eliasdzobo",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/elias_dzobo",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Ashesi University",
+      degree: "Bachelor's Degree in Computer Science",
+      start: "2019",
+      end: "2023",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "4th-IR",
+      link: "https://www.4th-ir.com/",
+      badges: ["Hybrid"],
+      title: "AI/ML Engineer",
       logo: ParabolLogo,
-      start: "2021",
+      start: "2023",
+      end: "Present",
+      description:
+        "Lead a team of 6 individuals in the development of a LangChain-based recommendation system, leveraging large language models to significantly improve candidate-to-job role matching accuracy by 85%. Technologies: Langchain, OpenAI, FastAPI",
+    },
+    {
+      company: "Merson Venture Studios",
+      link: "https://www.4th-ir.com/",
+      badges: ["Hybrid"],
+      title: "Software Engineer",
+      logo: ParabolLogo,
+      start: "2023",
+      end: "Present",
+      description:
+        "Collaborated with a cross functional team to develop a blockchain tokenization service using a microsrvice architecture",
+    },
+    {
+      company: "Inngen Technologies",
+      link: "https://www.4th-ir.com/",
+      badges: ["Hybrid"],
+      title: "Data Engineer",
+      logo: ParabolLogo,
+      start: "2024",
       end: "2024",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Developed ETL pipelines by identifying data sources and modelling architecture to facilitate data injestion, transformation and storage using AWS ecosystem",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Turntabl",
+      link: "https://www.turntabl.io/",
+      badges: ["In Person"],
+      title: "Software Engineer Intern",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "May 2022",
+      end: "July 2022",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "•	Applied object-oriented programming in Java, Angular, and Kotlin to improve the bus-tracking system’s modularity by 30%. This involved collaborating with the team to identify key areas for improvement and implementing new features that met user needs. Technologies: Kotlin, Java, Angular",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Python",
+    "Machine Learning",
+    "Computer Vision",
+    "Backend Development",
+    "Data Science and Analytics",
+    "Data Pipelines",
+    "Software testing and debugging",
+    "MLOPs",
+    "Langchain",
+    "web3 development",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "DermaPal",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Capstone Project",
+        "Python",
+        "Tensorflow",
+        "FastAPI",
+        "MLFlow",
+        "Prefect",
       ],
-      description: "A platform to build and grow your online business",
+      description: "An AI Skin disease and remedy recommendation service",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
@@ -132,10 +136,10 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Clear",
+      techStack: ["Side Project", "Streamlit", "Python", "Scikit-Learn"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "A skincare product recommendation system that recommends products based on user preferences and skin conditions",
       logo: MonitoLogo,
       link: {
         label: "monito.dev",
@@ -143,10 +147,10 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "resumeGPT",
+      techStack: ["Side Project", "Langchain", "Openai", "Streamlit"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "A personal LLM finetuned on my resume and linkedin profile to personalise job applications",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
@@ -154,10 +158,17 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Crypto-Pipeline",
+      techStack: [
+        "Side Project",
+        "python",
+        "aws-s3",
+        "postgres",
+        "Docker",
+        "streamlit",
+      ],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "An ETL pipeline for ingesting crypto data from multiple source and transforming the data for technical analysis",
       logo: Minimal,
       link: {
         label: "useminimal.com",
@@ -165,20 +176,26 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Autor",
+      techStack: [
+        "Side Project",
+        "Python",
+        "langchain",
+        "github actions",
+        "pytest",
+      ],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
+        "A python package to generate a technical article of a project by parsing the codebase",
       logo: BarepapersLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "autor",
+        href: "https://pypi.org/project/AutorGPT/",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
+      title: "Juliaa",
+      techStack: ["Startup", "TypeScript", "Python", "Fastapi", "Openai"],
+      description: "An Agentic Online Customer Service Agent",
       logo: YearProgressLogo,
       link: {
         label: "getyearprogress.com",
@@ -186,16 +203,16 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Parabol",
+      title: "Feast",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "MLOPs",
+        "Ultralytics",
+        "Fastapi",
+        "Mlflow",
+        "Prometheus",
+        "Yolov5",
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+      description: "The ingredient identification and recipe creation service",
       logo: ParabolLogo,
       link: {
         label: "github.com",
@@ -203,17 +220,17 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Evercast",
+      title: "Credit Risk",
       techStack: [
-        "Lead Frontend Developer",
+        "MLOps Engineer",
 
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Python",
+        "Mlflow",
+        "Prefect",
+        "Scikit-learn",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "An end to end machine learning pipeline for predicting customer credit risk",
       logo: EvercastLogo,
       link: {
         label: "evercast.us",
@@ -221,10 +238,9 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
+      title: "Echo",
+      techStack: ["Ai Engineerr", "Python", "Openai"],
+      description: "An Agentic AI virtual assistant",
       logo: MobileVikingsLogo,
       link: {
         label: "mobilevikings.pl",
@@ -232,10 +248,10 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Ecommerce Data Analysis",
+      techStack: ["Python", "Scikit Learn", "Seaborn"],
       description:
-        "Howdy is a place for you to join communities you care about",
+        "A data science project analysing user activity on mobile and web based applications and using that to predict user annual spending",
       logo: Howdy,
       link: {
         label: "play.google.com",
@@ -243,10 +259,16 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "BTC Predictor",
+      techStack: [
+        "Python",
+        "LSTMs",
+        "Arima",
+        "RNNs",
+        "Time Series Data Analysis",
+      ],
       description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
+        "A time series analysis project analysing the price of Bitcoin and building a machine learning model to predict the future price",
       logo: TastyCloudLogo,
       link: {
         label: "tastycloud.fr",
@@ -254,24 +276,30 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
+      title: "Char RNN",
+      techStack: ["Numpy", "Pytorch", "Python"],
+      description: "Building an RNN network from scratch",
       logo: AmbitLogo,
     },
     {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Poppi",
+      techStack: ["Startup", "Python", "Fastapi", "React"],
       description:
-        "Android application that helps with booking a table in a restaurants",
+        "Poppi is a vectorstore repository allowing developer easy access to already created vectorstores of quality data to prototype RAG applications",
       logo: BimLogo,
     },
     {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Juliaa",
+      techStack: ["Start", "Android", "Kotlin"],
       description:
         "Video streaming mobile application for Canal Digital subscribers",
+      logo: CDGOLogo,
+    },
+    {
+      title: "Lunar Landing",
+      techStack: ["Gymasium", "Stable Baseline"],
+      description:
+        "A reinforcement learning program to land a Rocket on a moon",
       logo: CDGOLogo,
     },
   ],
